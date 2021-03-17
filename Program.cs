@@ -22,7 +22,7 @@ namespace AddingTheSumOf2Digits
                 {
                     remainder = n % 10; // we're splitting 2 and 9 
                     sum += remainder ; // storing each remainer on top of the other
-                    n = n / 10;       // Now were want the number the ramainder to be assigned to n.
+                    n = n / 10;       // Now we want the number that is not the ramainder to be assigned to n.
                 }
                
                 return sum;
